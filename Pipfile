@@ -8,6 +8,7 @@ fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 mysql-connector-python = "*"
 python-dotenv = "*"
+pydantic = "*"
 
 [dev-packages]
 black = "*"
