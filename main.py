@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from dotenv import load_dotenv
-import json
 from connection import myConnection
 import mysql.connector
 from movie import Movie, ConvertItem
